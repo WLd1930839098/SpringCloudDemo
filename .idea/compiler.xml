@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zr-consumer" />
+        <module name="zr-eureka" />
+        <module name="zr-provoder" />
+        <module name="zr-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="binsconsumer" target="1.8" />
+      <module name="binseureka" target="1.8" />
+      <module name="binsprovoder" target="1.8" />
+      <module name="binszuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="binsconsumer" options="-parameters" />
+      <module name="binseureka" options="-parameters" />
+      <module name="binsprovoder" options="-parameters" />
+      <module name="binszuul" options="-parameters" />
+      <module name="zr-consumer" options="-parameters" />
+      <module name="zr-eureka" options="-parameters" />
+      <module name="zr-provoder" options="-parameters" />
+      <module name="zr-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+spring:
+  application:
+    name: zr-zuul
+server:
+  port: 10010
+zuul:
+  routes:
+    zr-provider: /zr-provider/**
+    zr-consumer: /zr-consumer/**
+  prefix: /api

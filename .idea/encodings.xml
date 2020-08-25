@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bins-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bins-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bins-provoder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bins-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zr-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zr-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zr-provoder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zr-zuul" charset="UTF-8" />
+  </component>
+</project>
